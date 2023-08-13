@@ -1,0 +1,129 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background: slategray;
+    background-image: url(../Sources/spiderman-back.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 3px solid rgba(234, 12, 12, 0.445);
+    color: white;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    padding: 40px 40px;
+    margin: 20px 0 15px ;
+}
+.wrapper .login-head{
+    justify-content: center;
+    display: flex;
+}
+.wrapper h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 30px;
+    margin: 30px 0;
+    position: relative;
+
+}
+.wrapper .input-box input {
+    width: 100%;
+    height: 100%;
+    padding: 22px 20px 20px 20px; 
+    background: transparent;
+    border: 2px solid rgba(234, 12, 12, 0.619); 
+    border-radius: 40px;
+    color: rgb(240, 240, 234);
+    font-weight: 20px;
+    box-sizing: border-box; 
+    font-size: 15px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.766);
+    padding: 20px 20 20px 20px;
+
+}
+.input-box i{
+    position: absolute;
+    display: flex;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-10%);
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.5); 
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 10px;
+}
+.remember-forget label{
+    accent-color: #fff;
+    margin-right: 10px;
+}
+.remember-forget a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    display: flex;
+}
+
+.wrapper .btn #submit-btn{
+    border-radius: 40px;
+    margin: 10px;
+    width: 50%;
+    height: 5vh;
+    border-color: rgba(234, 12, 12, 0.619);
+    box-shadow: 0 0 2px rgba(211, 15, 15, 0.734);
+    font-size: 20px;
+
+}
+.wrapper .btn #reset-btn{
+    border-radius: 40px;
+    margin: 10px;
+    width: 50%;
+    height: 5vh;
+    border-color: rgba(234, 12, 12, 0.619);
+    box-shadow: 0 0 2px  rgba(234, 12, 12, 0.619);;
+    font-size: 20px;
+}
+.wrapper .btn #submit-btn:hover{
+    background-color: greenyellow;
+}
+.wrapper .btn #reset-btn:hover{
+    background-color: blue;
+}
+.wrapper .register-link{
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+.register-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.register-link a:hover{
+    text-decoration: underline;
+}
+
+
+
